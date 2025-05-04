@@ -1,12 +1,12 @@
 ---
 layout: page
-title: contacts | brainfucksec
+title: contacts | tomsterbg
 ---
 
 ```term
 contact me
 ```
 
-Email:  `brainfucksec[at]pm.me`
+Email:  `nil[at]nil.nil`
 
-Also you can find me on GitHub: [brainfucksec](https://github.com/brainfucksec)
+Also you can find me on GitHub: [tomsterbg](https://github.com/tomsterbg)
