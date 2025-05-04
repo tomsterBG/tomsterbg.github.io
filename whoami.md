@@ -1,18 +1,16 @@
 ---
 layout: page
-title: whoami | brainfucksec
+title: whoami | tomsterbg
 ---
 
 ```term
 whoami
 ```
 
-Hi, I am `brainf+ck` and I am a Hacker, not for skills, I definitely have a long way to go, but I am a Hacker because I try to understand how things work, and I try to improve them, whether it is an operating system, a program or an object that I use everyday.
+Hey, i'm `tomster` and i like tinkering with computers, but also i love knowledge, especially truth. The more the truth, the happier i become!
 
-My studies are mainly about Operating Systems, Penetration Testing and Networking, I like to study an operating system, or a system in general, and solve its security issues.
+Since a kid my dad taught me to always think before my actions which helped transform me into a logical person who draws the line, sometimes too conservatively.
 
-I use almost exclusively GNU/Linux Operating Systems, and I have been an Arch Linux user for years, Arch Linux philosophy has led me to know the KISS principle, which I try to apply in programming and in problem solving, simple concept but very complex to master.
-I'm a supporter of Free Open Source Software, the basic concept is: if you can't read the source code of an application, you can't know what it really does once started (unless reverse engineering is performed on the code).
+I love meeting people, talking with them and learning from what they say and from how they criticize me, because criticism is not a personal attack, it's a way to improve and i like improvement.
 
-I have a particular interest in alternative and decentralized networks such as Tor and P2P networks, because I think that the Internet as we know it today is no longer sustainable in terms of privacy and security, and we need an alternative solution.
-
+Ever since switching to [Linux Mint](https://www.linuxmint.com/) i've been using mostly [free open source software](https://en.wikipedia.org/wiki/Free_and_open-source_software). A very interesting observation was that, i used Windows before and had to give up on some of its apps and features, but most those were actually harmful to my health! For example, i no longer login to YouTube because the algorithm built up such a detailed profile about me, that i developed a binge watching addiction.
