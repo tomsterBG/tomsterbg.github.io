@@ -38,37 +38,23 @@ local bring = 0, "string", nil
 | true  | 1    | 0     |
 | false | 0    | 0     |
 
->callout
-
->[!tip] v2
->with
-body
+>blockquote
 
 text
 
 {:.callout .callout-tip}
-This is the title
-This is the body of the tip callout. It explains something useful.
+tip
 
 {:.callout .callout-warning}
-Important note
-Be careful when doing this potentially dangerous operation.
+warning
 
 {:.callout .callout-quote}
-A wise saying
-To be or not to be, that is the question.
-
->This is a regular blockquote, it should not look like a callout.
->It will use the default beige blockquote style.
-
-This is normal paragraph text.
+quote
 
 {:.callout .callout-error}
-Something Went Wrong
-The process failed with an error. Check the logs.
+error
 
 {:.callout .callout-note}
-Just an FYI
-This is some additional information you might find interesting.
+note
 
 [:nutshell](https://ncase.me/nutshell/)
