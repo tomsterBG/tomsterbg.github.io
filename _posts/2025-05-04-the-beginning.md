@@ -67,9 +67,8 @@ This is normal paragraph text.
 >[!error] Something Went Wrong
 >The process failed with an error. Check the logs.
 
+{:.callout .callout-note}
 >[!note] Just an FYI
 >This is some additional information you might find interesting.
-
-{:.callout .callout-note}
 
 [:nutshell](https://ncase.me/nutshell/)
