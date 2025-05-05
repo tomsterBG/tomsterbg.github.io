@@ -13,135 +13,135 @@ $beige-blockquote-text: lighten($beige-text, 25%); // quotes
 $beige-footer-text: lighten($beige-text, 10%); // footer
 
 body {
-  background: $beige-bg;
-  color: $beige-text;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
+    background: $beige-bg;
+    color: $beige-text;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 header {
-  background: darken($beige-bg, 3%);
-  border-bottom: 1px dashed $beige-header-accent;
+    background: darken($beige-bg, 3%);
+    border-bottom: 1px dashed $beige-header-accent;
 }
 
 header h1 {
-  color: $beige-header-accent;
-  text-shadow: none;
+    color: $beige-header-accent;
+    text-shadow: none;
 }
 
 .header-link {
-   color: $beige-link;
-   text-shadow: none;
-   &:hover {
-     color: $beige-link-hover;
-   }
+    color: $beige-link;
+    text-shadow: none;
+    &:hover {
+        color: $beige-link-hover;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $beige-header-accent;
-  text-shadow: none;
+    color: $beige-header-accent;
+    text-shadow: none;
 }
 
 // --- Links ---
 a {
-  color: $beige-link;
-  text-shadow: none;
-  &:hover {
-    color: $beige-link-hover;
-  }
-  &:active, &:focus {
-     outline: none; // Or define a subtle custom outline: e.g., outline: 1px dashed $beige-link;
-     border: none;
-    -moz-outline-style: none;
-  }
+    color: $beige-link;
+    text-shadow: none;
+    &:hover {
+        color: $beige-link-hover;
+    }
+    &:active, &:focus {
+        outline: none; // Or define a subtle custom outline: e.g., outline: 1px dashed $beige-link;
+        border: none;
+        -moz-outline-style: none;
+    }
 }
 
 // --- Code Blocks (pre) ---
 pre {
-  background: $beige-code-bg;
-  border: 1px solid darken($beige-code-bg, 10%);
-  color: $beige-code-text; // Base text color inside code blocks
-  .highlight {
-    color: $beige-code-text; // Default text in code block
-    background-color: $beige-code-bg;
-    .c, .c1, .cs, .cm { color: lighten($beige-code-text, 35%); font-style: italic; } // comments
-    .k, .kc, .kd, .kn, .kp, .kr, .kt, .kv { color: $beige-header-accent; } // keywords
-    .s, .sb, .sc, .sd, .s1, .s2, .sh, .sx { color: $beige-link; } // strings
-  }
+    background: $beige-code-bg;
+    border: 1px solid darken($beige-code-bg, 10%);
+    color: $beige-code-text; // Base text color inside code blocks
+    .highlight {
+        color: $beige-code-text; // Default text in code block
+        background-color: $beige-code-bg;
+        .c, .c1, .cs, .cm { color: lighten($beige-code-text, 35%); font-style: italic; } // comments
+        .k, .kc, .kd, .kn, .kp, .kr, .kt, .kv { color: $beige-header-accent; } // keywords
+        .s, .sb, .sc, .sd, .s1, .s2, .sh, .sx { color: $beige-link; } // strings
+    }
 }
 
 // --- Inline Code (code.highlighter-rouge) ---
 code.highlighter-rouge {
-  background: $beige-code-bg;
-  border: 1px solid darken($beige-code-bg, 8%);
-  padding: 1px 4px;
-  margin: 0 1px;
-  color: $beige-inline-code-text;
-  border-radius: 3px;
-  font-size: 0.9em;
+    background: $beige-code-bg;
+    border: 1px solid darken($beige-code-bg, 8%);
+    padding: 1px 4px;
+    margin: 0 1px;
+    color: $beige-inline-code-text;
+    border-radius: 3px;
+    font-size: 0.9em;
 }
 
 // --- Other Elements ---
 blockquote {
-  color: $beige-blockquote-text;
-  border-left: 3px solid $beige-border;
-  padding-left: 15px;
-  margin-left: 0;
+    color: $beige-blockquote-text;
+    border-left: 3px solid $beige-border;
+    padding-left: 15px;
+    margin-left: 0;
 }
 
 hr {
-  height: 0;
-  border: 0;
-  border-bottom: 1px solid $beige-border;
-  color: $beige-border;
+    height: 0;
+    border: 0;
+    border-bottom: 1px solid $beige-border;
+    color: $beige-border;
 }
 
 // --- Tables ---
 th {
-  text-align: left;
-  border-bottom: 1px solid $beige-border;
-  padding: 8px 10px;
-  color: $beige-header-accent;
+    text-align: left;
+    border-bottom: 1px solid $beige-border;
+    padding: 8px 10px;
+    color: $beige-header-accent;
 }
 
 td {
-  padding: 8px 10px;
-  border-bottom: 1px solid lighten($beige-border, 10%);
+    padding: 8px 10px;
+    border-bottom: 1px solid lighten($beige-border, 10%);
 }
 
 footer {
-  color: $beige-footer-text;
+    color: $beige-footer-text;
 }
 
 footer a {
-  color: $beige-footer-text;
-  text-decoration: none;
-  &:hover {
-    color: $beige-link;
-  }
+    color: $beige-footer-text;
+    text-decoration: none;
+    &:hover {
+        color: $beige-link;
+    }
 }
 
 .pagination {
-  a.page-item {
-    color: $beige-link;
-    padding: 5px 10px;
-    border: 1px solid $beige-border;
-    border-radius: 3px;
-    margin: 0 2px;
-    text-decoration: none;
-    &:hover {
-       background-color: $beige-code-bg; // Use code bg for hover
-       color: darken($beige-link, 10%);
-       border-color: darken($beige-border, 10%);
+    a.page-item {
+        color: $beige-link;
+        padding: 5px 10px;
+        border: 1px solid $beige-border;
+        border-radius: 3px;
+        margin: 0 2px;
+        text-decoration: none;
+        &:hover {
+           background-color: $beige-code-bg;
+           color: darken($beige-link, 10%);
+           border-color: darken($beige-border, 10%);
+        }
     }
-  }
-  span.page-item { // Current page / Disabled arrow
-    color: $beige-text;
-    padding: 5px 10px;
-    border: 1px solid darken($beige-border, 15%); // Slightly darker border for current/disabled
-    border-radius: 3px;
-    margin: 0 2px;
-    background-color: darken($beige-bg, 5%); // Highlight current page bg
-  }
+    span.page-item {
+        color: $beige-text;
+        padding: 5px 10px;
+        border: 1px solid darken($beige-border, 15%);
+        border-radius: 3px;
+        margin: 0 2px;
+        background-color: darken($beige-bg, 5%);
+    }
 }

@@ -39,9 +39,9 @@ If you want to see the changes before pushing the blog to Github, do a local bui
 
 ```bash
 docker run --rm -p 8000:8000 \
-  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
-  -it tocttou/jekyll:3.5 \
-  jekyll serve --watch --port 8000
+    --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
+    -it tocttou/jekyll:3.5 \
+    jekyll serve --watch --port 8000
 ```
 
 Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
@@ -58,9 +58,9 @@ Edit the `_config.yml` file and set the following variables:
 title: [The title of your blog]
 description: [A short description of your blog's purpose]
 author:
-  name: [Your name]
-  email: [Your email address]
-  url: [URL of your website]
+    name: [Your name]
+    email: [Your email address]
+    url: [URL of your website]
 
 baseurl: [The base url for this blog.]
 
