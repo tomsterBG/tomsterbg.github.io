@@ -9,6 +9,4 @@ critics: 0, should ask some people
 {:.callout .callout-note}
 I am currently in the process of writing, refining and asking for criticism on this topic. It will change over time.
 
-This is really important, yet many people just never think enough about it.
-
-Mass communication is *new* and people weren't made for it.
+Since i want to write more in this blog, which is publicly visible, i have to ask this question. Especially considering that recently i've noticed some very important problems related to popularity and the internet.
