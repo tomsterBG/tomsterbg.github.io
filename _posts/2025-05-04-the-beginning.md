@@ -75,3 +75,5 @@ This is normal paragraph text.
 > This is some additional information you might find interesting.
 
 {:.callout .callout-note}
+
+[:nutshell](https://ncase.me/nutshell/)
