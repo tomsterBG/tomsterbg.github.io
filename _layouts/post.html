@@ -6,7 +6,9 @@ layout: default
     <h1><b>{{ page.title }}</b></h1>
     created: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time></code>,
     last edited: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.last_edit | date_to_xmlschema }}" class="by-line">{{ page.last_edit | date_to_string }}</time></code>
+    {% if page.critics != nil %}
     <br>critics: <code class="language-plaintext highlighter-rouge">{{ page.critics }}</code>
+    {% endif %}
     <hr>
     {{ content }}
 </article>
