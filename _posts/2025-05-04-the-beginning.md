@@ -47,16 +47,16 @@ body
 text
 
 {:.callout .callout-tip}
->[!tip] This is the title
-> This is the body of the tip callout. It explains something useful.
+This is the title
+This is the body of the tip callout. It explains something useful.
 
 {:.callout .callout-warning}
->[!warning] Important note
->Be careful when doing this potentially dangerous operation.
+Important note
+Be careful when doing this potentially dangerous operation.
 
 {:.callout .callout-quote}
->[!quote] A wise saying
->To be or not to be, that is the question.
+A wise saying
+To be or not to be, that is the question.
 
 >This is a regular blockquote, it should not look like a callout.
 >It will use the default beige blockquote style.
@@ -64,11 +64,11 @@ text
 This is normal paragraph text.
 
 {:.callout .callout-error}
->[!error] Something Went Wrong
->The process failed with an error. Check the logs.
+Something Went Wrong
+The process failed with an error. Check the logs.
 
 {:.callout .callout-note}
->[!note] Just an FYI
->This is some additional information you might find interesting.
+Just an FYI
+This is some additional information you might find interesting.
 
 [:nutshell](https://ncase.me/nutshell/)
