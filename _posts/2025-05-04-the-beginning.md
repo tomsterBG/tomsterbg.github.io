@@ -46,33 +46,29 @@ body
 
 text
 
-> [!tip] This is the Title
+{:.callout .callout-tip}
+>[!tip] This is the title
 > This is the body of the tip callout. It explains something useful.
 
-{:.callout .callout-tip}
-
-> [!warning] Important Note
-> Be careful when doing this potentially dangerous operation.
-
 {:.callout .callout-warning}
-
-> [!quote] A Wise Saying
-> To be or not to be, that is the question.
+>[!warning] Important note
+>Be careful when doing this potentially dangerous operation.
 
 {:.callout .callout-quote}
+>[!quote] A wise saying
+>To be or not to be, that is the question.
 
-> This is a regular blockquote, it should not look like a callout.
-> It will use the default beige blockquote style.
+>This is a regular blockquote, it should not look like a callout.
+>It will use the default beige blockquote style.
 
 This is normal paragraph text.
 
-> [!error] Something Went Wrong
-> The process failed with an error. Check the logs.
-
 {:.callout .callout-error}
+>[!error] Something Went Wrong
+>The process failed with an error. Check the logs.
 
-> [!note] Just an FYI
-> This is some additional information you might find interesting.
+>[!note] Just an FYI
+>This is some additional information you might find interesting.
 
 {:.callout .callout-note}
 
