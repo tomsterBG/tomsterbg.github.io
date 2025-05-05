@@ -4,8 +4,8 @@ layout: default
 
 <article>
     <h1><b>{{ page.title }}</b></h1>
-    created: <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>,
-    last edited: <time datetime="{{ page.last_edit | date_to_xmlschema }}" class="by-line">{{ page.last_edit | date_to_string }}</time>
+    created: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time></code>,
+    last edited: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.last_edit | date_to_xmlschema }}" class="by-line">{{ page.last_edit | date_to_string }}</time></code>
     <hr>
     {{ content }}
 </article>
