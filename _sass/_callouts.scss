@@ -1,0 +1,144 @@
+// _sass/_callouts.scss
+// Requires Font Awesome 5 Free (or adjust icon classes/content)
+
+// Define callout colors (adjust to better match beige theme if needed)
+// Using existing beige vars where sensible, defining new ones otherwise
+$callout-note-bg: lighten($beige-code-bg, 2%); // Slightly lighter than code bg
+$callout-note-border: $beige-link;
+
+$callout-tip-bg: #e6f4ea; // Light green
+$callout-tip-border: #5cb85c; // Green
+
+$callout-warning-bg: #fdf7e7; // Light yellow/orange
+$callout-warning-border: #f0ad4e; // Orange
+
+$callout-error-bg: #fbe9e7; // Light red
+$callout-error-border: #d9534f; // Red
+
+$callout-quote-bg: $beige-code-bg; // Use code background for quotes
+$callout-quote-border: $beige-blockquote-text; // Use existing blockquote text color for border
+
+// Base .callout class
+.callout {
+  padding: 1em 1em 1em 3.5em; // Increased left padding for icon
+  margin: 1.5em 0;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-radius: 4px;
+  position: relative; // Crucial for positioning the pseudo-element icon
+  background-color: $callout-note-bg; // Default background
+  border-left-color: $callout-note-border; // Default border
+
+  // Override default blockquote styles from beige.scss if needed
+  color: $beige-text; // Ensure text color isn't the dim blockquote color
+
+  // Font Awesome Icon via ::before
+  &::before {
+    font-family: "Font Awesome 5 Free"; // Use the correct FA font family
+    font-weight: 900; // Use 900 for Solid icons (ensure FA is loaded)
+    position: absolute;
+    left: 0.8em; // Position icon within the padding
+    top: 0.8em; // Adjust vertical alignment
+    font-size: 1.2em; // Icon size
+    width: 1.5em; // Ensure consistent spacing/alignment
+    text-align: center;
+    color: $callout-note-border; // Default icon color
+    content: "\f05a"; // Default icon (info-circle)
+  }
+
+  // Style the first paragraph (usually the title)
+  > p:first-child, > :is(h1,h2,h3,h4,h5,h6):first-child { // Allow headings as titles too
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: inherit; // Ensure title uses callout text color, not default blockquote
+
+    // You might want to hide the "[!TYPE]" text itself, but it's tricky
+    // as it's part of the text content. Best leave it visible.
+  }
+
+  > p:last-child {
+    margin-bottom: 0; // Remove extra space at the bottom
+  }
+
+  // --- Type Specific Styles ---
+
+  &.callout-note {
+    // Already uses default styles, but you can customize if needed
+    // background-color: $callout-note-bg;
+    // border-left-color: $callout-note-border;
+    // &::before {
+    //   color: $callout-note-border;
+    //   content: "\f05a"; // info-circle
+    // }
+  }
+
+  &.callout-tip {
+    background-color: $callout-tip-bg;
+    border-left-color: $callout-tip-border;
+    &::before {
+      color: $callout-tip-border;
+      content: "\f0eb"; // lightbulb
+    }
+  }
+
+  &.callout-warning {
+    background-color: $callout-warning-bg;
+    border-left-color: $callout-warning-border;
+    &::before {
+      color: $callout-warning-border;
+      content: "\f071"; // exclamation-triangle
+    }
+  }
+
+  &.callout-error {
+    background-color: $callout-error-bg;
+    border-left-color: $callout-error-border;
+    &::before {
+      color: $callout-error-border;
+      content: "\f057"; // times-circle or f06a for exclamation-circle
+    }
+  }
+
+   &.callout-quote {
+    background-color: $callout-quote-bg;
+    border-left-color: $callout-quote-border;
+    font-style: italic; // Often quotes are italicized
+    &::before {
+      color: $callout-quote-border;
+      content: "\f10d"; // quote-left
+    }
+     > p:first-child {
+       font-weight: normal; // Quote titles might not need to be bold
+       font-style: normal; // Title might not be italic
+     }
+  }
+
+  // Add more types as needed (e.g., success, info, bug, example)
+  // &.callout-success { ... }
+  // &.callout-info { ... } // Maybe same as note?
+  // &.callout-bug { ... }
+  // &.callout-example { ... }
+
+}
+
+// Ensure default blockquotes that *don't* have the .callout class
+// still use the original beige theme styling.
+blockquote:not(.callout) {
+  color: $beige-blockquote-text;
+  border-left: 3px solid $beige-border;
+  padding-left: 15px;
+  margin-left: 0;
+  // Reset any potential overrides from the base .callout style if needed
+  padding: 0 0 0 15px; // Reset padding if necessary
+  border-left-width: 3px;
+  background-color: transparent; // Ensure no background from .callout base leaks
+  position: static; // Reset position
+
+  &::before {
+    content: none; // Remove icon from normal blockquotes
+  }
+   > p:first-child {
+     font-weight: normal; // Reset font-weight
+   }
+}

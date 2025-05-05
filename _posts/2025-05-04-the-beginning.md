@@ -45,3 +45,33 @@ local bring = 0, "string", nil
 body
 
 text
+
+> [!tip] This is the Title
+> This is the body of the tip callout. It explains something useful.
+
+{:.callout .callout-tip}
+
+> [!warning] Important Note
+> Be careful when doing this potentially dangerous operation.
+
+{:.callout .callout-warning}
+
+> [!quote] A Wise Saying
+> To be or not to be, that is the question.
+
+{:.callout .callout-quote}
+
+> This is a regular blockquote, it should not look like a callout.
+> It will use the default beige blockquote style.
+
+This is normal paragraph text.
+
+> [!error] Something Went Wrong
+> The process failed with an error. Check the logs.
+
+{:.callout .callout-error}
+
+> [!note] Just an FYI
+> This is some additional information you might find interesting.
+
+{:.callout .callout-note}
