@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing publicly is really dangerous"
+title: "How dangerous is mass media?"
 date: 2025-05-05
 last_edit: 2025-05-05
 critics: 0, should ask some people
