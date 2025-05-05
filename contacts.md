@@ -7,4 +7,4 @@ title: contacts | tomsterbg
 contact me
 ```
 
-Discord: `tomsterbg`
+Discord: `tomsterbg` (user ID: `493290210000633866`) - join a server i'm in and ping there, such as `/factorio` or `/obsidianmd`
