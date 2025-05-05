@@ -32,9 +32,11 @@ owner : "tomsterbg"
 year : "2025"
 
 # thanks tocttou for this theme
-# remote_theme: tocttou/hacker-blog
-remote_theme: mmistakes/jekyll-theme-basically-basic
-skin: soft # repo says put it in _data.theme.yml
+remote_theme: tocttou/hacker-blog
+
+# didn't work, idk why, but it is a nice beige theme
+# remote_theme: mmistakes/jekyll-theme-basically-basic
+# skin: soft # repo says put it in _data.theme.yml
 
 # jekyll serve options
 port: 8880 #local server port
