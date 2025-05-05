@@ -1,6 +1,6 @@
 /* beige theme override */
 
-$beige-bg: #FBF0D9;               // main background
+$beige-bg: #fbf0d9;               // main background
 $beige-text: #383838;             // main text
 $beige-header-accent: #5a3a1a;    // headers and primary accents
 $beige-link: #8a4b0f;             // links
@@ -17,19 +17,19 @@ body {
   background: $beige-bg;
   color: $beige-text;
   // Optionally, uncomment below to switch from monospace if desired
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 17px; // Slightly larger font often looks good with serif/sans-serif
   line-height: 1.6;
 }
 
 header {
-  background: darken($beige-bg, 3%); // Slightly darker beige for header bg
-  border-bottom: 1px solid $beige-border; // Use border color consistent with new palette
+  background: darken($beige-bg, 3%);
+  border-bottom: 1px dashed $beige-header-accent; // Use border color consistent with new palette
 }
 
 header h1 {
   color: $beige-header-accent;
-  text-shadow: none; // Remove original green text-shadow
+  text-shadow: none;
 }
 
 .header-link {
@@ -63,14 +63,14 @@ a {
 // --- Code Blocks (pre) ---
 pre {
   background: $beige-code-bg;
-  border: 1px solid darken($beige-code-bg, 5%);
+  border: 1px solid darken($beige-code-bg, 10%);
   color: $beige-code-text; // Base text color inside code blocks
   .highlight {
     color: $beige-code-text; // Default text in code block
     background-color: $beige-code-bg;
-    .c, .c1, .cs, .cm { color: lighten($beige-code-text, 35%); font-style: italic; } // Comments: lighter grey
-    .k, .kc, .kd, .kn, .kp, .kr, .kt, .kv { color: $beige-header-accent; } // Keywords: use header color
-    .s, .sb, .sc, .sd, .s1, .s2, .sh, .sx { color: $beige-link; } // Strings: use link color
+    .c, .c1, .cs, .cm { color: lighten($beige-code-text, 35%); font-style: italic; } // comments
+    .k, .kc, .kd, .kn, .kp, .kr, .kt, .kv { color: $beige-header-accent; } // keywords
+    .s, .sb, .sc, .sd, .s1, .s2, .sh, .sx { color: $beige-link; } // strings
   }
 }
 

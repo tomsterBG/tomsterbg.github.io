@@ -17,3 +17,24 @@ How'd i know about it? I switched to [Linux Mint](https://www.linuxmint.com/) fr
 Also here's a bit of related resources:
 - <https://github.com/tocttou/tocttou.github.io> - another similar website
 - <https://github.com/tocttou/hacker-blog> - the theme used by brainfucksec and tocttou
+
+---
+
+Additionally let's add some testing elements so i can more easily see how the scss theme works:
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+my `inline | code`
+```lua
+and some --lua
+local bring = 0, "string", nil
+```
+
+| and   | true | false |
+| ----- | ---- | ----- |
+| true  | 1    | 0     |
+| false | 0    | 0     |
+
