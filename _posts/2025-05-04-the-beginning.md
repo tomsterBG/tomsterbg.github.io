@@ -2,6 +2,7 @@
 layout: post
 title: "The beginning"
 date: 2025-05-04
+last_edit: 2025-05-05
 ---
 
 The blog is coming together!
