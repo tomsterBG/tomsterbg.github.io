@@ -20,7 +20,7 @@ Also here's a bit of related resources:
 - <https://github.com/tocttou/hacker-blog> - the theme used by brainfucksec and tocttou
 
 ---
-
+<br>
 Additionally let's add some testing elements so i can more easily see how the scss theme works:
 # H1
 ## H2
