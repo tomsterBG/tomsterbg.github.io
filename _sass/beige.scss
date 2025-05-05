@@ -1,16 +1,16 @@
-// _sass/custom.scss - Beige Theme Overrides for hacker-blog
+/* beige theme override */
 
-$beige-bg: #FAF0E6;             // Linen - Main background
-$beige-text: #5D4037;             // Dark Brown - Main text
-$beige-header-accent: #A0522D;    // Sienna - Headers and primary accents
-$beige-link: #8B4513;             // Saddle Brown - Links
-$beige-link-hover: lighten($beige-link, 15%); // Lighter brown for link hover
-$beige-code-bg: #EAE0D5;          // Light Greyish-Beige - Code backgrounds
-$beige-code-text: #444444;          // Dark Grey - Default text in code blocks
-$beige-inline-code-text: #B8860B; // DarkGoldenrod - Inline code text
-$beige-border: #C3B091;           // Khaki/Light Brown - Borders, rules
-$beige-blockquote-text: lighten($beige-text, 20%); // Lighter text for quotes
-$beige-footer-text: darken($beige-text, 5%);  // Slightly darker text for footer
+$beige-bg: #FAF0E6;               // main background
+$beige-text: #5D4037;             // main text
+$beige-header-accent: #A0522D;    // headers and primary accents
+$beige-link: #8B4513;             // links
+$beige-link-hover: lighten($beige-link, 15%); // link hover
+$beige-code-bg: #EAE0D5;          // code backgrounds
+$beige-code-text: #444444;        // default text in code blocks
+$beige-inline-code-text: #B8860B; // inline code text
+$beige-border: #C3B091;           // borders, rules
+$beige-blockquote-text: lighten($beige-text, 20%); // quotes
+$beige-footer-text: darken($beige-text, 5%);  // footer
 
 body {
   // Override background image/color and text color
