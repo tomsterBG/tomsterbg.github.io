@@ -13,6 +13,7 @@ layout: null
             <!-- <email>{{ site.author.email }}</email> -->
             <uri>{{ site.author.url }}</uri>
         </author>
+        {% assign posts_for_feed = site.posts | where_exp: "item", "item.hidden != true" %}
         {% for post in site.posts limit:10 %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
