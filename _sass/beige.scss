@@ -23,6 +23,10 @@ body {
 header {
     background: darken($beige-bg, 3%);
     border-bottom: 1px dashed $beige-header-accent;
+    text-align: center;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 header h1 {
