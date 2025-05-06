@@ -18,13 +18,12 @@ permalink: /posts/hidden
 
     <ul>
     {% for post in visible_posts %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-
         <li><time>{{ post.date | date:"%d %b" }} - </time>
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
         </li>
 
         {% if forloop.last == false %}
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% assign nindex = forloop.index0 | plus: 1 %}
             {% assign nyear = visible_posts[nindex].date | date: '%Y' %}
             {% if year != nyear %}
