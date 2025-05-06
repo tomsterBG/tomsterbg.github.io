@@ -12,11 +12,11 @@ Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker
 4. About Page
 5. RSS (`https://base-url/atom`)
 6. Sitemap (`https://base-url/sitemap`)
-7. Google Analytics (optional)
+7. Google Analytics (optional, i'm not planning on using it)
 
 ## Usage
 
-1. Fork and Clone this repository
+1. Fork and Clone [brainfucksec's](https://github.com/brainfucksec/brainfucksec.github.io) repository
 2. Customize your blog
 3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
 4. Commit and push to master on a repository named `<githubusername.github.io>`.
