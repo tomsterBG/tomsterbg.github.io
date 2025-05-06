@@ -4,6 +4,9 @@ layout: default
 
 <article>
     <h1><b>{{ page.title }}</b></h1>
+    {% if page.hidden == true %}
+    <div class="callout callout-warning">This post is hidden because it is not ready to be public. You can read it and criticize me to help make it ready.</div>
+    {% endif %}
     created: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time></code>,
     last edited: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.last_edit | date_to_xmlschema }}" class="by-line">{{ page.last_edit | date_to_string }}</time></code>
     {% if page.critics != nil %}
