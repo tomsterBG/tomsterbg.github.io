@@ -10,12 +10,12 @@ hidden: true
 
 I have been making this website for the past few days and i have to admit, Gemini 2.5 has been VERY helpful!
 
-{:.callout .callout-tip}
-Pro tip: you can `middle-click` the scroll on your mouse for various things. I use it for opening links in a new tab.
-
 Usually i am not an early adopter, i don't jump on beta versions nor look for the newest trends. I never pay online (did it once and it was a waste of money, never again) and i always look for free, stable software even if that means *looking for alternatives* 🏴‍☠️. Actually, ever since ditching Windows i haven't downloaded anything shady, well except GitHub Desktop (it's shady because GitHub is owned by Microsoft).
 
 Also i've been on the skeptical side of the ai revolution. Not because i don't believe what is going on, i do see and use it, ai is great and useful! The skepticism is about how people wrongly interpret it, saying overly optimistic stuff because they heard the overpromised lies told by the giants who run these companies. Ai needs insane learning data and runtime, something only the giants can afford. Not to mention there are [stories](https://world.edu/long-hours-and-low-wages-the-human-labour-powering-ais-development/) of many people being used as very low wage workers to label data, that's... really dark. And i couldn't even find the one i remember so i linked to a different one.
+
+{:.callout .callout-tip}
+Pro tip: you can `middle-click` the scroll on your mouse for various things. I use it for opening links in a new tab.
 
 Anyway, right now i'm not here to break down the darkness of ai. Starting `3 May 2025` i decided to learn how to make a website to host for free, prompted Gemini and i was unable to use the first output because it had requirements to use eleventy to generate the site. However when i told it to generate one .html file, it did so well that i wondered "What if i wasn't so inexperienced and could actually make the first prompt run?" Gemini 2.5 is so cracked, i'm 100% sure ChatGPT was NEVER this close when i used it, even though i used it months ago for programming and it could somewhat help at first, then they refined it to do better, but still it made so many mistakes. The biggest thing about Gemini is its context comprehension. It can understand entire zip archives, enough for me to post my entire website and just ask directly how to do something. So i iterated a bunch of times and liked it, but you know the drill. This is an entire website built by ai, there's no way it's as good as a real website. And i was right.
 
@@ -27,3 +27,5 @@ Gemini is still not at the point of replacing programmers, but it's definitely a
 
 ## Basic structure
 The website uses the simplest things possible: `.html`, `.scss`, `LiquidJS` (to be parsed in `.markdown`), `markdown` and i love this. Markdown is my favorite especially after using [Obsidian](https://obsidian.md/) for about a year now.
+
+I love how you can write `HTML` and `LiquidJS` inside the same `markdown` file, as you can see in `root/posts.md`. One main complaint: i am using the default Linux Mint text editor with dark mode which makes most colored text a nightmare to read. I really don't want to use VSCode again, i found it really hard to understand what's going on and it feels sluggish.
