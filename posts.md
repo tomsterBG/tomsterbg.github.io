@@ -4,7 +4,7 @@ title: posts | tomsterbg
 ---
 
 <section>
-    {% capture posts %}{{ site.posts | where_exp:"item", "item.hidden != true" }}{% endcapture %}
+    {% assign posts = site.posts | where_exp:"item", "item.hidden != true" | sort: "date" }}
     {% if posts.size > 0 %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
