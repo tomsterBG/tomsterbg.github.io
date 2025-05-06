@@ -14,7 +14,7 @@ title: posts | tomsterbg
         <h3>{{ firstpostyear }}</h3>
     {% endif %}
 
-    {%for post in site.posts %}
+    {%for post in site.posts %} {% if post.hidden != true %}
         {% unless post.next %}
             <ul>
         {% else %}
@@ -31,7 +31,7 @@ title: posts | tomsterbg
                     {{ post.title }}
                 </a>
             </li>
-    {% endfor %}
+    {% endif %} {% endfor %}
     </ul>
 
     {% endif %}
