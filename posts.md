@@ -4,35 +4,38 @@ title: posts | tomsterbg
 ---
 
 <section>
-    {% if site.posts.size > 0 %}
+    {% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" | sort: "date" | reverse %}
+    {% if visible_posts.size > 0 %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture postyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
+    {% capture postyear %}{{ visible_posts[0].date | date: '%Y' }}{% endcapture %}
     {% if currentyear == postyear %}
         <h3>This year's posts</h3>
     {% else %}
         <h3>{{ postyear }}</h3>
     {% endif %}
 
-    {% for post in site.posts %}
-        {% unless post.next %}
-            <ul>
-        {% else %}
-            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    <ul>
+    {% for post in visible_posts %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+
+        <li><time>{{ post.date | date:"%d %b" }} - </time>
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+        </li>
+
+        {% if forloop.last == false %}
+            {% assign nindex = forloop.index0 | plus: 1 %}
+            {% assign nyear = visible_posts[nindex].date | date: '%Y' %}
             {% if year != nyear %}
                 </ul>
-                <h3>{{ post.date | date: '%Y' }}</h3>
+                <h3>{{ nyear }}</h3>
                 <ul>
             {% endif %}
-        {% endunless %}
-        <li><time>{{ post.date | date:"%d %b" }} - </time>
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                {{ post.title }}
-            </a>
-        </li>
+        {% endif %}
     {% endfor %}
     </ul>
-
+    
+    {% else %}
+        <h3>No posts to display</h3>
     {% endif %}
 </section>
