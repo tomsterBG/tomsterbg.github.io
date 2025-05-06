@@ -4,17 +4,18 @@ title: posts | tomsterbg
 ---
 
 <section>
-    {% if site.posts[0] %}
+    {% capture posts %}{{ site.posts | where_exp:"item", "item.hidden != true" }}{% endcapture %}
+    {% if posts[0].size > 0 %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture firstpostyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
-    {% if currentyear == firstpostyear %}
+    {% capture postyear %}{{ posts[0].date | date: '%Y' }}{% endcapture %}
+    {% if currentyear == postyear %}
         <h3>This year's posts</h3>
     {% else %}
-        <h3>{{ firstpostyear }}</h3>
+        <h3>{{ postyear }}</h3>
     {% endif %}
 
-    {% for post in site.posts %}
+    {% for post in posts %}
         {% unless post.next %}
             <ul>
         {% else %}
@@ -26,11 +27,11 @@ title: posts | tomsterbg
                 <ul>
             {% endif %}
         {% endunless %}
-            <li><time>{{ post.date | date:"%d %b" }} - </time>
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                    {{ post.title }}
-                </a>
-            </li>
+        <li><time>{{ post.date | date:"%d %b" }} - </time>
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                {{ post.title }}
+            </a>
+        </li>
     {% endfor %}
     </ul>
 
