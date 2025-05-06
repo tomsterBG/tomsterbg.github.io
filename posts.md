@@ -4,18 +4,17 @@ title: posts | tomsterbg
 ---
 
 <section>
-    {% assign posts = site.posts | where_exp:"item", "item.hidden != true" | sort: "date" }}
-    {% if posts.size > 0 %}
+    {% if site.posts.size > 0 %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture postyear %}{{ posts[0].date | date: '%Y' }}{% endcapture %}
+    {% capture postyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
     {% if currentyear == postyear %}
         <h3>This year's posts</h3>
     {% else %}
         <h3>{{ postyear }}</h3>
     {% endif %}
 
-    {% for post in posts %}
+    {% for post in site.posts %}
         {% unless post.next %}
             <ul>
         {% else %}
