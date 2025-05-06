@@ -4,8 +4,6 @@ title: posts | tomsterbg
 ---
 
 <section>
-
-    [//]: # (if any posts exist)
     {% if site.posts[0] %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
