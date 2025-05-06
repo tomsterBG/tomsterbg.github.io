@@ -13,8 +13,7 @@ layout: null
             <!-- <email>{{ site.author.email }}</email> -->
             <uri>{{ site.author.url }}</uri>
         </author>
-        {% assign posts_for_feed = site.posts | where_exp: "item", "item.hidden != true" %}
-        {% for post in site.posts limit:10 %}
+        {% for post in site.posts limit:10 %} {% if post.hidden != true %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>
                 <description>{{ post.content | xml_escape }}</description>
@@ -23,6 +22,6 @@ layout: null
                 <link href="{{ site.url }}{{ post.url }}"/>
                 <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
             </item>
-        {% endfor %}
+        {% endif %} {% endfor %}
     </channel>
 </rss>
