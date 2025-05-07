@@ -42,7 +42,7 @@ YouTube is censorship hell and it feels much nicer, more rewarding and fun to de
 
 Very dangerous.
 
-When you start climbing the [:ladder](https://www.reddit.com/r/satire/comments/1khe87/tale_of_the_stairway_translation_of_a_bulgarian/) of popularity, things get really rough, real fast. (read the whole tale, please, it's super short and very well written, also [this](https://chitanka.info/text/4253-prikazka-za-stylbata) is the original, if you want to compare with ai translations)
+When you start climbing the [ladder](https://www.reddit.com/r/satire/comments/1khe87/tale_of_the_stairway_translation_of_a_bulgarian/) of popularity, things get really rough, real fast. (read the whole tale, please, it's super short and very well written, also [this](https://chitanka.info/text/4253-prikazka-za-stylbata) is the original, if you want to compare with ai translations)
 
 Morally i feel like it's a major toll on my sould when i post something wrong or empty. If i know it has a mistake in it, i better fix the mistake. I don't want my work to be the reason people fall for traps, but it will, no matter what i do. There are some people who just take `1/10th` of the whole picture and "interpretate" it. Then when criticized for their wrong understanding, they don't say sorry and try to improve, they take the blue pill. "I am right to interpretate everything the way i like." Specifically for this kind of abuse of freedom, Bulgaria has a saying which can't be easily translated: "свободата не е свободия". However this Bible verse explains it pretty well:
 
