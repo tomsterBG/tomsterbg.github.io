@@ -28,3 +28,9 @@ Correct. This is why i am writing about anything in my personal notes, but i rea
 I tried, but quickly realized that to be successful on YouTube requires a lot of finesse that i don't have. Finesse that needs me to hide who i am, to adapt to people's illogical and ever-changing desires, to comform to a platform. YouTube is censorship hell and it fells much nicer, more rewarding and fun to develop a website on my own because i can do so much with it. I can change how the entire thing looks, you don't have this level of freedom on YouTube.
 
 I've been pondering a lot on some similar questions. The problem is, i have a major internal conflict. I know that the best choice is to be modest. Don't ask for popularity.
+
+## How dangerous is it?
+
+Very dangerous. One main reason i rejected YouTube was popularity. Currently this website has no analytics (even if it came with `commented out` google analytics, just waiting to be uncommented and then jump into action), no cookies, no tracking data, nothing and i have no intention on collecting and reviewing any data either (other than you [contacting](https://tomsterbg.github.io/contacts) me).
+
+When you start climbing the [:ladder](https://www.reddit.com/r/satire/comments/1khe87/tale_of_the_stairway_translation_of_a_bulgarian/) of popularity, things get really rough, real fast. (read the whole tale, please, it's super short and very well written, also [this](https://chitanka.info/text/4253-prikazka-za-stylbata) is the original, if you want to compare with ai translations)
