@@ -10,9 +10,9 @@ hidden: true
 
 ## Why bother making a blog?
 
-An [old man] said "pass it on" talking about the knowledge and wisdom one gains as they live. I am young, green and still have nothing to pass on, but i want to at least pass the little that i currently have. The whole point of it is that, by 
+An [old man](https://www.youtube.com/@DryCreekWranglerSchool) said to pass it on, share your knowledge and wisdom with the younger generation. (and [here](https://youtu.be/IbqUTHHRMn4&t=1064) he talks how it's a crime to have a wealth of knowledge and not pass it on) I am young, green and still have nothing to pass on, but i want to share the little that i currently have. I just really want to help people, but also belive that it'll help me. "do to others what you would want them do to you" (Matthew 7:12) I like helping people, that makes me happy and the way i can do it is by using my skills - writing, programming, logical reasoning.
 
-I just really want to. My best skills are to think logically and use a keyboard. Early on in my life dad showed me what programming is, and i've tried some other skills, but no other came even close. So here i am, "programming" "my own" blog website because i can, and i want. I want because i feel like helping society, as if passing on my knowledge, my writing, my work, as if that'd somehow help at least one soul out there.
+I just really want to help. My main skills are to think logically and use a keyboard. Early on in my life dad showed me what programming is, and i've tried some other skills, but no other came even close. So here i am, "programming" "my own" blog website because i can, and i want. I want because i feel like helping society, as if passing on my knowledge, my writing, my work, as if that'd somehow help at least one soul out there.
 
 ## Who are you to teach me?
 
