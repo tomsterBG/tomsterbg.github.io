@@ -2,7 +2,7 @@
 layout: post
 title: "Why am i making a blog and how dangerous is it?"
 date: 2025-05-05
-last_edit: 2025-05-07
+last_edit: 2025-05-08
 critics: 0
 sitemap: false
 hidden: true
