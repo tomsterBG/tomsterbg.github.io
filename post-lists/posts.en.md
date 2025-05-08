@@ -6,5 +6,5 @@ lang: en
 filter_by_lang: true
 ---
 
-{% include language_selector.html %}
-{% include post_list.html lang=page.lang %}
+{% include language-selector.html %}
+{% include post-list.html lang=page.lang filter_by_lang=page.filter_by_lang %}
