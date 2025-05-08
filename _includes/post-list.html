@@ -1,11 +1,11 @@
 <section>
     {% assign posts = site.posts %}
     {% assign temp_posts = posts %}
-    {% if include.show_hidden %}{% if include.show_hidden == true %}
+    {% if include.show_hidden == true %}
         {% assign temp_posts = site.posts | where_exp: "post", "post.hidden == true" | sort: "date" | reverse %}
     {% else %}
         {% assign temp_posts = site.posts | where_exp: "post", "post.hidden != true" | sort: "date" | reverse %}
-    {% endif %}{% endif %}
+    {% endif %}
     {% assign posts = temp_posts %}
 
     {% if include.lang %}
