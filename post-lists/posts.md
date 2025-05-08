@@ -1,6 +1,7 @@
 ---
 layout: page
 title: posts | tomsterbg
+permalink: /posts
 ---
 
 {% include language-selector.html %}
