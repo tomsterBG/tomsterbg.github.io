@@ -15,7 +15,7 @@ An [old man](https://www.youtube.com/@DryCreekWranglerSchool) said to pass it on
 {:.callout .callout-quote}
 do to others what you would have them do to you (Matthew 7:12)
 
-I like helping people, that makes me happy, and the way i can help is by using my skills - writing, programming, logical reasoning. Early on in my life dad showed me what programming is, and i've tried some other skills, but no other stuck with me as much as programming. So here i am, "programming" "my own" blog website because i can, and i want.
+I like helping people, that makes me happy, and the way i can help is by using my skills - writing, programming, logical reasoning. Early on in my life dad showed me what programming is, and i've tried some other skills, but no other stuck with me as much as programming. So here i am, programming [my own](https://github.com/tomsterbg/tomsterbg.github.io) blog website because i can, and i want. And the reason i can is because [this gigachad](https://brainfucksec.github.io/) made it super easy!
 
 When i see what is going on in the world, how delusional some people are, i want to speak. And my message here is that, if most people who reject thinking actually start doing it, they'll suddenly see an improvement in their life. For example an online friend of mine came recently saying how she likes to be called with pronouns `he/him`. It's a girl, so logically she'd be lying if she said she's a man. But oh well, certain media, certain parties and underlying puppeteers decided to divide and conquer, and that's what they do. They filled up her head with nonsense. Nobody would say "this chicken is male" because we all know, roosters are male 🐓♂️, chickens are female 🐔♀️, but it's fine to say "she likes to have male pronouns" ♀️->♂️?
 
