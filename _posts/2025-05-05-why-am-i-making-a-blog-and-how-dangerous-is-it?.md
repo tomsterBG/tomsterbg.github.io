@@ -34,7 +34,7 @@ I will at least try.
 
 ## Why not do this on YouTube?
 
-I tried, but quickly realized that YouTube is very dangerous. All the tutorials and best practices on how to make successful content are about hiding who you are and filling the "niche gap". The entire platform psychology is made to motivate me based on video views and i hate it. I don't control views, why motivate me with something i have no control over? A successful YouTuber needs to be good at selling ideas, i don't want that. He needs to hide who he is, to adapt to people's illogical and ever-changing desires, to fit in. This same pressure to fit in in order to be successful is why we see no creativity in the content. It's all the same, just different coats of paint. Same what? I call this building material "empty".
+I tried, but quickly realized that YouTube is very dangerous. All the tutorials and best practices on how to make successful content are about hiding who you are and filling the "niche gap". The entire platform psychology is made to motivate me based on video views and i hate it. I don't control views, why motivate me with something i have no control over? A successful YouTuber needs to be good at **selling ideas**, i don't want that. He needs to put on a mask and adapt to people's illogical and ever-changing desires, to fit in. This same pressure to fit in in order to be successful is why we see no creativity in the content. It's all the same, just different coats of paint. Same what? I call this building material "empty".
 
 YouTube is censorship hell and it feels much nicer, more rewarding and fun to develop a website on my own because i can do so much with it. I can change how the entire thing looks, you don't have this level of freedom on YouTube.
 
