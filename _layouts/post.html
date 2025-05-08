@@ -13,7 +13,7 @@ layout: default
     <br>{{ l10n.critics }}: <code class="language-plaintext highlighter-rouge">{{ page.critics }}</code>
     {% endif %}
     {% if page.hidden == true %}
-    <div class="callout callout-warning">{{ l10n.hidden_warning_intro }} <code class="language-plaintext highlighter-rouge">{{ l10n.hidden_warning_hidden }}</code> {{ l10n.hidden_warning_outro }}</div>
+    <div class="callout callout-warning">{{ l10n.hidden_warning_intro }} <code class="language-plaintext highlighter-rouge">{{ l10n.hidden_warning_hidden }}</code>{{ l10n.hidden_warning_outro }}</div>
     {% endif %}
     <hr>
     {{ content }}

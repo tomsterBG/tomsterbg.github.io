@@ -4,7 +4,7 @@ en:
     critics: "critics"
     hidden_warning_intro: "This post is"
     hidden_warning_hidden: "hidden"
-    hidden_warning_outro: "because it is not ready to be public. You can read it and criticize me to help make it ready."
+    hidden_warning_outro: " because it is not ready to be public. You can read it and criticize me to help make it ready."
 bg:
     created: "създадено"
     last_edited: "последна промяна"
