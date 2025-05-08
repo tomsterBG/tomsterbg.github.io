@@ -49,7 +49,7 @@ Morally i feel like it's a major toll on my sould when i post something wrong or
 {:.callout .callout-quote}
 “I have the right to do anything,” you say — but not everything is beneficial. “I have the right to do anything" — but not everything is constructive. (1 Corinthians 10:23)
 
-One main reason i stopped trying YouTube was popularity, its reach just goes too far and the whole point is to have as many numbers as possible. Why? ... Like for real, your company would grow, but... why? Will you buy two yachts instead of one? Will you give 1% to the homeless? Or will you invest for even more growth? The least logical thing is to keep growing for the sake of growing, yet that's what we see everywhere. You could spend a percent of your extra growth on fixing some major issues, but no, you want to grow. You have completely forgotten why by now. The rich don't belie when the poor say they're hungry.
+One main reason i stopped trying YouTube was popularity, its reach just goes too far and the whole point is to have as many numbers as possible. Why? ... Like for real, your company would grow, but... why? Will you buy two yachts instead of one? Will you give 1% to the homeless? Or will you invest for even more growth? The least moral and logical thing is to keep growing for the sake of growing, because you don't pay for anything meaningful, it's all empty and you know and feel it, yet that's what we see everywhere. You could spend a percent of your extra growth on fixing some major issues, but no, you want to grow. You have completely forgotten why by now. The rich don't belie when the poor say they're hungry.
 
 ## Will i monetize?
 
