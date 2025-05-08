@@ -1,12 +1,26 @@
 <section>
-    {% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" | sort: "date" | reverse %}
-    {% if page.filter_by_lang == true %}
-        {% assign visible_posts = visible_posts | where_exp: "post", "post.lang == page.lang" | sort: "date" | reverse %}
+    {% assign posts = site.posts %}
+    {% assign temp_posts = posts %}
+    {% if include.show_hidden %}{% if include.show_hidden == true %}
+        {% assign temp_posts = site.posts | where_exp: "post", "post.hidden == true" | sort: "date" | reverse %}
+    {% else %}
+        {% assign temp_posts = site.posts | where_exp: "post", "post.hidden != true" | sort: "date" | reverse %}
+    {% endif %}{% endif %}
+    {% assign posts = temp_posts %}
+
+    {% if include.lang %}
+        {% if include.lang == 'en' %}
+            {% assign temp_posts = posts | where_exp: "post", "post.lang == 'en' or post.lang == null or post.lang == empty" %}
+        {% else %}
+            {% assign temp_posts = posts | where_exp: "post", "post.lang == include.lang %}
+        {% endif %}
     {% endif %}
-    {% if visible_posts.size > 0 %}
+    {% assign posts = temp_posts %}
+
+    {% if posts.size > 0 %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-    {% capture postyear %}{{ visible_posts[0].date | date: '%Y' }}{% endcapture %}
+    {% capture postyear %}{{ posts[0].date | date: '%Y' }}{% endcapture %}
     {% if currentyear == postyear %}
         <h3>This year's posts</h3>
     {% else %}
@@ -14,7 +28,7 @@
     {% endif %}
 
     <ul>
-    {% for post in visible_posts %}
+    {% for post in posts %}
         <li><time>{{ post.date | date:"%d %b" }} - </time>
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
         </li>
@@ -22,7 +36,7 @@
         {% if forloop.last == false %}
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% assign nindex = forloop.index0 | plus: 1 %}
-            {% assign nyear = visible_posts[nindex].date | date: '%Y' %}
+            {% assign nyear = posts[nindex].date | date: '%Y' %}
             {% if year != nyear %}
                 </ul>
                 <h3>{{ nyear }}</h3>
