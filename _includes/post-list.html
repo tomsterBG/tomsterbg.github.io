@@ -9,13 +9,15 @@
     {% assign posts = temp_posts %}
 
     {% if include.lang %}
-        {% if include.lang == 'en' %}
-            {% assign temp_posts = posts | where_exp: "post", "post.lang == 'en'" %}
+        {% if include.lang == site.lang %}
+            {% assign posts_with_default_lang = posts | where_exp: "post", "post.lang == include.lang" %}
+            {% assign posts_with_nil_lang = posts | where: "lang", nil %}
+            {% assign temp_posts = posts_with_default_lang | concat: posts_with_nil_lang | uniq %}
         {% else %}
             {% assign temp_posts = posts | where_exp: "post", "post.lang == include.lang" %}
         {% endif %}
+        {% assign posts = temp_posts %}
     {% endif %}
-    {% assign posts = temp_posts %}
 
     {% if posts.size > 0 %}
 
