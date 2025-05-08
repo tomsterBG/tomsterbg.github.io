@@ -23,7 +23,7 @@ When i see what is going on in the world, how delusional some people are, i want
 
 Correct. I can't just teach you something i haven't understood nor experienced personally. Every time i did that, it was a big mistake and i hated what i'd posted online. This is why i'll try to focus more on my stories, my experiences, what i did, what really happened to real people, just to give a real, meaningful example and not empty words.
 
-Often times these blog sites write a lot and say nothing. I want to write a lot and say a lot. I want each sentence to be meaningful and real, and i will edit posts, ackgnowledge criticism and change whatever needs changing, while i have access to this blog's source. Because it's not perfect, it will never be perfect, our world isn't perfect. Nobody should ever claim to have made anything perfect in an imperfect world.
+Often times these blog sites write a lot and say nothing. I want to write a lot and say a lot. I want each sentence to be meaningful and real, and i will edit posts, ackgnowledge criticism and change whatever needs changing, while i have access to [this blog's source](https://github.com/tomsterbg/tomsterbg.github.io). Because it's not perfect, it will never be perfect, our world isn't perfect. Nobody should ever claim to have made anything perfect in an imperfect world.
 
 Applying the same logic, i noticed something interesting while reading the Bible. Especially everything written since Jesus, the writings are by people who have first obtained experience and opened their own eyes and only then wrote to open our eyes. This is why i have some deep topics i want to mention, but i will not do it just yet.
 
