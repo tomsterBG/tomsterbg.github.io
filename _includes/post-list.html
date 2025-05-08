@@ -1,11 +1,8 @@
----
-layout: page
-title: hidden posts | tomsterbg
-permalink: /posts/hidden
----
-
 <section>
-    {% assign visible_posts = site.posts | where_exp: "post", "post.hidden == true" | sort: "date" | reverse %}
+    {% assign visible_posts = site.posts | where_exp: "post", "post.hidden != true" | sort: "date" | reverse %}
+    {% if page.filter_by_lang == true %}
+        {% assign visible_posts = visible_posts | where_exp: "post", "post.lang != page.lang" | sort: "date" | reverse %}
+    {% endif %}
     {% if visible_posts.size > 0 %}
 
     {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}

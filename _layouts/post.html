@@ -2,15 +2,18 @@
 layout: default
 ---
 
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
+{% assign l10n = site.data.l10n[lang] %}
+
 <article>
     <h1><b>{{ page.title }}</b></h1>
-    created: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time></code>,
-    last edited: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.last_edit | date_to_xmlschema }}" class="by-line">{{ page.last_edit | date_to_string }}</time></code>
+    {{ l10n.created }}: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time></code>,
+    {{ l10n.last_edited }}: <code class="language-plaintext highlighter-rouge"><time datetime="{{ page.last_edit | date_to_xmlschema }}" class="by-line">{{ page.last_edit | date_to_string }}</time></code>
     {% if page.critics != nil %}
-    <br>critics: <code class="language-plaintext highlighter-rouge">{{ page.critics }}</code>
+    <br>{{ l10n.critics }}: <code class="language-plaintext highlighter-rouge">{{ page.critics }}</code>
     {% endif %}
     {% if page.hidden == true %}
-    <div class="callout callout-warning">This post is <code class="language-plaintext highlighter-rouge">hidden</code> because it is not ready to be public. You can read it and criticize me to help make it ready.</div>
+    <div class="callout callout-warning">{{ l10n.hidden_warning_intro }} <code class="language-plaintext highlighter-rouge">{{ l10n.hidden_warning_hidden }}</code> {{ l10n.hidden_warning_outro }}</div>
     {% endif %}
     <hr>
     {{ content }}

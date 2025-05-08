@@ -13,4 +13,10 @@
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
 
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> {% seo %}
+
+    {% if page.permalink == '/posts' or page.permalink == '/posts/en' or page.permalink == '/posts/bg' %}
+        <link rel="alternate" hreflang="en" href="{{ '/posts/en' | prepend: site.baseurl | replace: '//', '/' }}" />
+        <link rel="alternate" hreflang="bg" href="{{ '/posts/bg' | prepend: site.baseurl | replace: '//', '/' }}" />
+        <link rel="alternate" hreflang="x-default" href="{{ '/posts' | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endif %}
 </head>

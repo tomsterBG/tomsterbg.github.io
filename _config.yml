@@ -30,6 +30,8 @@ plugins:
 # Custom variables
 owner: "tomsterbg"
 year: "2025"
+lang: "en"
+show_hidden: false
 
 # thanks tocttou for this theme
 remote_theme: tocttou/hacker-blog

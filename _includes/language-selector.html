@@ -1,0 +1,36 @@
+<div class="language-selector">
+    <a href="{{ '/posts' | prepend: site.baseurl | replace: '//', '/' }}" class="button {% if page.permalink == '/posts' %}class="active"{% endif %}>all</a>&ensp;
+    <a href="{{ '/posts/en' | prepend: site.baseurl | replace: '//', '/' }}" class="button {% if page.permalink == '/posts/en' %}active{% endif %}">english</a>&ensp;
+    <a href="{{ '/posts/bg' | prepend: site.baseurl | replace: '//', '/' }}" {% if page.permalink == '/posts/bg' %}class="active"{% endif %}>български</a>
+</div>
+
+<style>
+    /* Add some basic styling for the language selector */
+    .language-selector {
+        margin-bottom: 30px; /* Add some space below the selector */
+        text-align: center; /* Center the buttons */
+        font-size: 1.1em; /* Slightly larger font */
+    }
+    .language-selector a {
+        text-decoration: none; /* Remove default underline */
+        padding: 5px 10px; /* Add padding around text */
+        border: 1px solid transparent; /* Add a transparent border for spacing/hover effect */
+        border-radius: 3px; /* Rounded corners */
+        transition: all 0.2s ease-in-out; /* Smooth transition for hover */
+    }
+     .language-selector a:hover {
+        border-color: {{ site.beige-border | default: '#e0d8c4' }}; /* Use your beige border color on hover */
+        background-color: lighten({{ site.beige-code-bg | default: '#eee8d5' }}, 2%); /* Light background on hover */
+     }
+    .language-selector a.active {
+        font-weight: bold; /* Bold text for the active link */
+        color: {{ site.beige-header-accent | default: '#5a3a1a' }}; /* Use your beige accent color for active */
+        border-color: {{ site.beige-header-accent | default: '#5a3a1a' }}; /* Use your beige accent color for active border */
+         background-color: {{ site.beige-code-bg | default: '#eee8d5' }}; /* Slightly darker background for active */
+    }
+    .language-selector a:active,
+    .language-selector a:focus {
+        outline: none; /* Remove outline on click/focus */
+        border: 1px solid {{ site.beige-link | default: '#8a4b0f' }}; /* Add a subtle focus indicator */
+    }
+</style>
