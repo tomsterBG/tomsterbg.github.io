@@ -1,6 +1,6 @@
 <div class="language-selector">
-    <a href="{{ '/posts' | prepend: site.baseurl | replace: '//', '/' }}" class="button {% if page.permalink == '/posts' %}active{% endif %}>all</a>&ensp;
-    <a href="{{ '/posts/en' | prepend: site.baseurl | replace: '//', '/' }}" class="button {% if page.permalink == '/posts/en' %}active{% endif %}">english</a>&ensp;
+    <a href="{{ '/posts' | prepend: site.baseurl | replace: '//', '/' }}" {% if page.permalink == '/posts' %}class="active"{% endif %}>all</a>&ensp;
+    <a href="{{ '/posts/en' | prepend: site.baseurl | replace: '//', '/' }}" {% if page.permalink == '/posts/en' %}class="active"{% endif %}>english</a>&ensp;
     <a href="{{ '/posts/bg' | prepend: site.baseurl | replace: '//', '/' }}" {% if page.permalink == '/posts/bg' %}class="active"{% endif %}>български</a>
 </div>
 
