@@ -10,7 +10,7 @@
 
     {% if include.lang %}
         {% if include.lang == 'en' %}
-            {% assign temp_posts = posts | where_exp: "post", "post.lang == 'en' or post.lang == null or post.lang == empty" %}
+            {% assign temp_posts = posts | where_exp: "post", "post.lang == 'en' or post.lang == nil" %}
         {% else %}
             {% assign temp_posts = posts | where_exp: "post", "post.lang == include.lang" %}
         {% endif %}
