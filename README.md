@@ -111,4 +111,5 @@ Edit `404.md`
 
 ## License
 
-CC0 1.0 Universal
+CC0 1.0 Universal -> GNU GPL v3
+I don't care about license compatibility, i want strict freedom like how Linux has remained public, free and open source over the years. GNU GPL is the best license for open source.
