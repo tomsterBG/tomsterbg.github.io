@@ -60,3 +60,7 @@ Or, are you growing because of the leaderboard? "I am the 1723rd wealthiest man,
 Probably not. I don't feel like involving money into this. I want to perhaps use this to build a community, have some friends, people who'd like to help out, but i do not want to become dependent. This website's programming is free and it should remain free.
 
 Currently this website has no analytics (even if it came with `commented out` google analytics, just waiting to be uncommented and then jump into action), no cookies, no tracking data, nothing and i have no intention on collecting, reviewing and selling any data either (other than reading your messages when you [contact](https://tomsterbg.github.io/contacts) me).
+
+## Why am i brutally honest?
+
+I want to be honest, but i find myself weak when trying to explain complex things in words. I forget, i mess up, it's just all over the place. That's why i write them instead. I am writing exactly what i would say, but the writing is more refined, i can say "oops" and edit things naturally while i can't just slip up every 5 seconds while talking to people. You know it too, that feeling when you just said something and want to unsay it because you instantly realized the mistake.
