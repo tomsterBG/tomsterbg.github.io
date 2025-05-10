@@ -19,6 +19,12 @@ I like helping people, that makes me happy, and the way i can help is by using m
 
 When i see what is going on in the world, how delusional some people are, i want to speak. And my message here is that, if most people who reject thinking actually start doing it, they'll suddenly see an improvement in their life. For example an online friend of mine came recently saying how she likes to be called with pronouns `he/him`. It's a girl, so logically she'd be lying if she said she's a man. But oh well, certain media, certain parties and underlying puppeteers decided to divide and conquer, and that's what they do. They filled up her head with nonsense. Nobody would say "this chicken is male" because we all know, roosters are male 🐓♂️, chickens are female 🐔♀️, but somehow people say "it's fine that she likes to have male pronouns" ♀️->♂️? Thankfully not *that* many people, as she told me this choice made her lose way too many friends, but i'm here, i'll stick around and see how i can help. Don't abandon the few friends you have over things like this, people need connections.
 
+## What is my motivation?
+
+I recently remembered that several years or months ago i saw websites like [Nicky Case](https://ncase.me/), [Neal.fun](https://neal.fun/), [Ladder of abstraction](https://worrydream.com/LadderOfAbstraction), [Moon](https://ciechanow.ski/moon), [Explorable Explanations](https://explorabl.es/) and many, many more interactive and cool websites that brought back that feeling of "i must help people by sharing my knowledge"!
+
+Especially Nicky's great, but also a little bit deluded work. (hey now, we're human, it's totally okay to go delusional in a post or two) I want to eventually get to making more approachable explanations by taking full advantage of what websites can do. You know the saying "images are worth a thousand words". I'd say yeah, but also that ladder of abstractions above taught me to dance up and down. If text can say a lot, and images too, what can they do together? ... Oh man!
+
 ## Who are you to teach me?
 
 Correct. I can't just teach you something i haven't understood nor experienced personally. Every time i did that, it was a big mistake and i hated what i'd posted online. This is why i'll try to focus more on my stories, my experiences, what i did, what really happened to real people, just to give a real, meaningful example and not empty words.
