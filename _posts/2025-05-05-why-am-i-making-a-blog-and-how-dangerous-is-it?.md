@@ -57,7 +57,7 @@ Or, are you growing because of the leaderboard? "I am the 1723rd wealthiest man,
 
 ## Will i monetize?
 
-Probably not. I don't feel like involving money into this. I want to perhaps use this to build a community, have some friends, people who'd like to help out, but i do not want to become dependent. This website's programming is free and it should remain free.
+Probably not. I don't feel like involving money into this. I want to perhaps use this to build a community, have some friends, people who'd like to help out, but i do not want to become dependent. This website's programming is free and it should remain free. Which is why i chose to [license](https://tomsterbg.github.io/licensing-of-this-blog) it.
 
 Currently this website has no analytics (even if it came with `commented out` google analytics, just waiting to be uncommented and then jump into action), no cookies, no tracking data, nothing and i have no intention on collecting, reviewing and selling any data either (other than reading your messages when you [contact](https://tomsterbg.github.io/contacts) me).
 
