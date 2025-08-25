@@ -72,12 +72,11 @@ This one is more personalized. I am a perfectionist and i have always had to tel
 
 There are two solutions to this. Testing your code with automated tests, and sending it to the AI by asking:
 
-```md
+{:.callout .callout-note}
 Criticize my code.
 Are there any bugs, inconsistencies, unwanted behavior, typos, outdated comments, useless comments? How can i improve the code?
 Is it all good? Do i even need to change anything? Am i following good coding practices?
 Be concise and to the point.
-```
 
 I do both of these things as of writing this sentence, in the following Github project: <https://github.com/tomsterBG/godot-classes-unit-tested>
 
