@@ -72,14 +72,14 @@ This one is more personalized. I am a perfectionist and i have always had to tel
 
 There are two solutions to this. Testing your code with automated tests, and sending it to the AI by asking:
 
-```
+```md
 Criticize my code.
 Are there any bugs, inconsistencies, unwanted behavior, typos, outdated comments, useless comments? How can i improve the code?
 Is it all good? Do i even need to change anything? Am i following good coding practices?
 Be concise and to the point.
 ```
 
-I do both of these things as of writing this sentence, in the following Github project: https://github.com/tomsterBG/godot-classes-unit-tested
+I do both of these things as of writing this sentence, in the following Github project: <https://github.com/tomsterBG/godot-classes-unit-tested>
 
 More often than not, it wouldn't give you a very good answer if your code is already good enough, but it's very good at catching things that need to be caught. So if your code has a flaw that's obvious and you missed it, the AI will probably find it.
 
@@ -129,7 +129,7 @@ Whatever else happens, the company fails, they become more greedy, raise prices,
 
 The only exception i'd make is to pay for something free if i know that the person who made it is a good one, and usually large companies aren't.
 
-On a side note, i would love to support the Factorio and BeamNG devs buy buying a copy of their games, simply because they've shown over the years that they deserve it. Good morals, consistent development, in fact, Factorio's blog posts are such an important piece of knowledge for any other developer. They write about search algorithms, sprite stacking techniques, music generation, noise generation, performance optimizations at big scales, the benefits of automated tests in your code, and best of all, read for yourself: https://www.factorio.com/blog/post/fff-366
+On a side note, i would love to support the Factorio and BeamNG devs buy buying a copy of their games, simply because they've shown over the years that they deserve it. Good morals, consistent development, in fact, Factorio's blog posts are such an important piece of knowledge for any other developer. They write about search algorithms, sprite stacking techniques, music generation, noise generation, performance optimizations at big scales, the benefits of automated tests in your code, and best of all, read for yourself: <https://www.factorio.com/blog/post/fff-366>
 
 # The strengths of AI
 
