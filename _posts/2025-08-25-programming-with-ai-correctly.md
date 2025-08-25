@@ -86,6 +86,12 @@ More often than not, it wouldn't give you a very good answer if your code is alr
 
 Now that i've given some reasoning, i think you won't just understand the **what** of a rule, but also the **why**.
 
+## Don't jump on the hype
+
+Using something simply because it's trending doesn't mean it's good or useful. For example so many people complained about the new, massively hyped up GPT 5. Of course they improved it later, but it didn't live up to the hype.
+
+Hype is not your friend, it's an advertisement.
+
 ## Never say that AI is bad
 
 This is just not true. It can do some things, it can't do other things. Each model is different and nothing is this black and white.
