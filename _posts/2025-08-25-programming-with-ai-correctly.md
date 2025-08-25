@@ -160,3 +160,22 @@ As stated before in the confidence problem, i sometimes use AI to tell me whethe
 This may sound contradictory with me saying not to use AI to finish your work, but it isn't, because i am still the last judge. I decide what needs to happen and i always use AI in the browser, not in my coding environment.
 
 Just today i was about to push to Github and decided to zip my code, ask the AI what may be wrong with it and guess what, it found a bug! I had an event being fired *before* clamping a value, causing the event to have an incorrect number as an argument, a number that could go outside of the clamping limits. I would have had to proofread my code for the 50th time by now to notice that.
+
+## Quick learning in the beginning
+
+This is basically an extension of me saying that it's good at explaining singular things and that you shouldn't use AI to finish your work.
+
+Sometimes that last one would sound like "AI doesn't finish your work, it starts it". And we can see how that happens. Think of it like a jumpstart. Going into the unknown and using this tool to become familiar with this unknown.
+
+For example when asking it to change something, you could look for which files it touched to make the change.
+When you get stuck, which happens a lot to new people, you could ask some questions, inform yourself, then test your knowledge. If it's wrong, you can always apply human intelligence to understand that it lied to you.
+
+## The rubber duck
+
+I have never truly used a rubber duck, but i have noticed that often times when i explain a problem correctly to other people, whether on forums or on Discord, i sometimes realize the answer to my problem even before i send the message. The rubber duck strategy is really powerful.
+
+This isn't as much of an AI's strength as it is your own strength.
+
+Learn how to explain things correctly and precisely. Use the AI as a duck to which you'll explain your problem. Hell, you could even ask "I want to improve my explanation skills, so tell me honestly, is my explanation clear?".
+
+I find it necessary to force it to be brutally honest because if i don't say it explicitly, AI will use flattery and hide the honesty. Maybe because many people don't like the truth? Oh well, that's a topic for another time.
