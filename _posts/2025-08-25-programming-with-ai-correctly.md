@@ -97,7 +97,7 @@ Again, AI is not an "all in one" kind of tool, and nothing will ever be.
 ## Don't use AI if you can do the thing, except when you have to do it 490 times over
 
 Training your skills is important, but what isn't important is repeating the same taks over, and over, and over, and...
-Also don't count to 1000, that'd be stupid.
+Also don't count to 490, that'd be stupid.
 
 For such repetitive tasks, sometimes the solution would be AI, sometimes making a macro algorithm to edit everything in bulk.
 
