@@ -96,7 +96,7 @@ Again, AI is not an "all in one" kind of tool, and nothing will ever be.
 
 ## Don't use AI if you can do the thing, except when you have to do it 490 times over
 
-Training your skills is important, but what isn't important is repeating the same taks over, and over, and over, and...
+Training your skills is important, but what isn't important is repeating the same tasks over, and over, and over, and...
 Also don't count to 490, that'd be stupid.
 
 For such repetitive tasks, sometimes the solution would be AI, sometimes making a macro algorithm to edit everything in bulk.
@@ -159,4 +159,4 @@ As stated before in the confidence problem, i sometimes use AI to tell me whethe
 
 This may sound contradictory with me saying not to use AI to finish your work, but it isn't, because i am still the last judge. I decide what needs to happen and i always use AI in the browser, not in my coding environment.
 
-Just today i was about to push to Github and decided to zip my code, ask the AI what may be wrong with it and guess what, it found a bug! I had an event being fired *after* clamping a value, causing the event to have an incorrect number as an argument, a number that could go outside of the clamping limits. I would have had to proofread my code for the 50th time by now to notice that.
+Just today i was about to push to Github and decided to zip my code, ask the AI what may be wrong with it and guess what, it found a bug! I had an event being fired *before* clamping a value, causing the event to have an incorrect number as an argument, a number that could go outside of the clamping limits. I would have had to proofread my code for the 50th time by now to notice that.
