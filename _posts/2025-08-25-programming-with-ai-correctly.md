@@ -185,3 +185,43 @@ This isn't as much of an AI's strength as it is your own strength.
 Learn how to explain things correctly and precisely. Use the AI as a duck to which you'll explain your problem. Hell, you could even ask "I want to improve my explanation skills, so tell me honestly, is my explanation clear?".
 
 I find it necessary to force it to be brutally honest because if i don't say it explicitly, AI will use flattery and hide the honesty. Maybe because many people don't like the truth? Oh well, that's a topic for another time.
+
+And i just did it again here, a day after writing the above: <https://github.com/bitwes/Gut/issues/745>
+
+What happened was, i tried to code a way to sort a string of dependent scripts and i got an idea on how to solve this right after i published the Github issue. Explaining your problem to someone else really is that powerful. And, if you read my issue, i explicitly say that i will not use the web or AI to solve this problem.
+
+---
+
+# It's not all roses
+
+So far i've talked about AI from my experience with the Roblox autocomplete, GPT 4, Stable Diffusion, Microsoft Copilot, Gemini 2.5 and GPT 5.
+
+Yesterday i saw this eye-opening documentary which is just an absolutely necessary watch if you want to see just how bad things are: <https://www.youtube.com/watch?v=5dZ_lvDgevk>
+
+It's astonishing just how many similarities this documentary reveals when you compare it to George Orwell's vision of the future: <https://www.youtube.com/watch?v=KNyqyFNoHKw>
+
+And here's a person who references the documentary, see what he has to say about it: <https://www.youtube.com/watch?v=g4vL1ERdZ9Y>
+
+I'm not trying to conspire, nor to come up with radical new weirdness. All i'm doing is just reflecting on my memories and noticing similarities. And oh by, aren't there many.
+
+All you have to do is just think. Find what doesn't make sense, what is contradictory, what isn't, what paints a fuller picture, what is objective and detached from your own wishes, and when you do that, crazy things start to appear. Just think, reflect. That's the way forward.
+
+The rules i wrote above are not letter by letter laws to be followed by the book, it's just a natural workflow that i follow and principles i have because it doesn't make sense to do these things that the rules talk about.
+
+For example why pay for AI? I liked Gemini because it was less enforcing on that front, but as i noticed this morning, they changed the default model from a normal one, to an image generation one. They ask for API usage. If you use the API, you'll be forced to pay. There is an easily accessible billing tab in the settings. Nothing is a coincidence. It's all designed to make people more willing to pay. For what? I don't see a reason to pay a company that spies on me.
+
+"If it's free, you are the product." - If i pay, i will still be the product too. After all "Data is the new oil."
+
+## Background usage
+
+Every single time i use a Google service, be it Gemini, YouTube, Google browser or whatever, my laptop has to heat up for no reason. In fact YouTube-induced heat is a new thing. And you know what is common? When i prompt Gemini, it heats up my system. When i start watching YouTube, it heats up my system.
+
+I am not going to be a genius if i say that Google is using some form of AI in YouTube to drive the algorithm that keeps you on the platform, which is why i prefer a [hardened Firefox](https://brainfucksec.github.io/firefox-hardening-guide-2024) where i'm watching on a clean slate such that the algorithm hasn't learned who i am yet. And it actually works, it greatly reduced the time i spend on that platform for my own good.
+
+I am not going to be a genius if i say that they can use your local machine as a way to help the training of that AI. In fact i haven't paid anything for dev tools or whatever, but i have still managed to make a system in Roblox which controls where resources are allocated, just to ensure that clients will be able to offload the server's work because Roblox sucks and its servers are very laggy.
+
+If i was able to do it for free just using some platform, what could professional engineers with actual salaries do? Definitely more than me, i'd say that much.
+
+It isn't just Google. There's a reason i switched to Linux. As Windows was updating they started downgrading features on Windows 10, so things only work on Windows 11 like my microphone. They also started enforcing Copilot. I had always debloated my Windows, but if you've ever used the **Task Manager** (`Ctrl + Shift + Esc`) you would have noticed all the background usage that occurs on startup. Windows, when debloated, used like 2.4 GB on my laptop. Linux Mint uses 1.2 GB and now that i've added a few programs that load at startup, it uses ONLY 1.3 GB. If you manage to download something on Windows and it enforces itself to load at startup, it would take way more than 100 MB.
+
+Background usage is what drains batteries, it's what heats up computers when they aren't used, it's what steals data. With Linux Mint i have allowed myself to sleep with the laptop on without fearing that it will reach 75 C every half hour. I have went outside on a walk with the laptop sleeping. I have never been this confident and secure with Windows, knowing just how much heat it makes my laptop produce.
