@@ -2,7 +2,7 @@
 layout: post
 title: "Programming with AI correctly."
 date: 2025-08-25
-last_edit: 2025-08-25
+last_edit: 2025-08-27
 critics: 0
 sitemap: false
 hidden: true
