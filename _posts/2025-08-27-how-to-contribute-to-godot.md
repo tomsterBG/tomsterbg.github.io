@@ -16,7 +16,9 @@ Here are some other videos already covering the topic:
 
 And a playlist by Mohsen Zare on GDExtension: <https://www.youtube.com/playlist?list=PLhixpuPeRv9aDdsZbhTpsXguYRvMgyVQ->
 
-Mohsen's channel is, by far, one of the better ones when it comes to actually showing you how to do it. Not because of the quality, but because he actually does it and explains things while showing them. I personally believe that video tutorials are way better if the person just gives up on explaining things they can't explain, and show them instead. Showing can be worth 1000 words.
+Mohsen's channel is, by far, one of the better ones when it comes to actually showing you how to do it. Not because of the quality, but because he actually does it and explains things while showing them. I personally believe that video tutorials are way better if the person just gives up on explaining things they can't explain, and shows them instead. Showing can be worth 1000 words.
+
+---
 
 Let's list each way in which you can contribute, from simplest to more complex:
 
@@ -34,18 +36,20 @@ Let's list each way in which you can contribute, from simplest to more complex:
 - Read [good first issues](https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22) to see if you can implement a fix for any of these. A "good first issue" label means it's probably easier to implement.
 	- Personally i recommend to name your branches something like `feat/some-feature` or `pr/some-feature`. I am still figuring it out, but for now i use `feat/` for features and then i clone the branch to a `pr/` branch when i'm absolutely ready to make a pull request.
 	- Specifically for pull requests this is a good read: <https://docs.godotengine.org/en/stable/contributing/workflow/pr_workflow.html>.
-	- There are a couple trackers, find them by searching `[TRACKER]` and use them for combined work such as fixing small typos in the documentation and adding unit tests.
-	- Read the documentation and see if you can improve it.
+	- There are a couple trackers, find them by searching `[TRACKER]` or [here](https://github.com/orgs/godotengine/projects/58) and use them for combined work such as fixing small typos in the documentation, adding unit tests and whatever else these trackers might be tracking.
+	- Read the documentation and see if you can improve it. Also read [latest](https://docs.godotengine.org/en/latest/) documentation which reflects the most experimental changes.
 - Read [Godot proposals](https://github.com/godotengine/godot-proposals/discussions) and try to make your own mock of the proposal, perhaps in a `feat/` branch. Then make a video of how it works and share it in the replies of that proposal.
 	- Seeing is more powerful than talking, and when you've already implemented it, you can link to your branch so other people know how you did it. I did exactly that [here](https://github.com/godotengine/godot/pull/92039) because people just can't agree on a solution to the pull request, so i made my own solution, recorded a video of how it works and linked to my code if anyone would like to know how it works. I'm not trying to boast, but seeing an example in action helps.
 
 As you can see, there are literally dozens of ways in which you can help the engine. However, there are also other things that you can do:
 
 - Use addons and provide feedback to the author of the addon. Bugs, features, same deal as contributing to Godot, but for an addon this time.
+- Modify addons to learn how they work.
 - Make addons and share them.
-- Make videos. Be it promotional, tutorials, showing an addon and explaining how to use it, explaining a feature of Godot, showing how you work with the engine normally, etc.
+- Make videos. Be it promotional, tutorials, showing an addon and explaining how to use it, explaining a feature of Godot, showing how you work with the engine normally, streaming development, challenges, game jams, etc.
 - Make forum posts that explain how to do this and that.
 - Contribute to addons made for Godot, most have a Github repository. Find bugs, request features, add features, say thanks.
+- Make game jam games. I use this to stress-test [my tools](https://github.com/tomsterBG/godot-classes-unit-tested) in a real environment.
 
 Now, let's dive into the specifics.
 
