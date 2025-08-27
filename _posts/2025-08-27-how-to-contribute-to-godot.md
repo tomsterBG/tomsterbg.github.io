@@ -46,3 +46,15 @@ As you can see, there are literally dozens of ways in which you can help the eng
 - Make videos. Be it promotional, tutorials, showing an addon and explaining how to use it, explaining a feature of Godot, showing how you work with the engine normally, etc.
 - Make forum posts that explain how to do this and that.
 - Contribute to addons made for Godot, most have a Github repository. Find bugs, request features, add features, say thanks.
+
+Now, let's dive into the specifics.
+
+# I can't compile the engine
+
+I can't too, don't worry. My laptop gets so hot that it simply crashes. Github has a solution for this.
+
+Godot automatically builds `artifacts`. To find them, go to the Godot Github page and look at [the commits](https://github.com/godotengine/godot/commits/master/). Look for a colored dot or check with a number like `20/20`. Clicking that opens a menu saying "All checks have passed" or something else, depending on the status of the checks. From there you can click on details and in this new interface, click on summary. Scroll to the bottom and you'll see downloadable artifacts.
+
+There are multiple types of artifacts. Some are editors, some are templates. The editors are the engine itself, and the templates are how you export your game to other people, for example on itch or Steam. I'm not familiar with how custom templates work, so i'll stick to editors.
+
+I personally use the only downloadable editor on Linux as of now, which is the Mono (basically normal editor, but also supports C# with .NET). Other editors are compiled, but the Github automation file says something like `artifact = false` which means that build won't be downloadable. You can easily change that, but only if you find where it is.
